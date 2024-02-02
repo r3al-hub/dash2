@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Purple Pulse|Login Page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container text-center">
+    <h1>Welcome| <span>Purple</span>Pulse</h1>
+    <button class="btn btn-light mt-4" onclick="toggleLogin()"><span id="button-text">Click Here To Login</span></button>
+    <div class="loader mx-auto mt-4"></div>
+    <form class="login-form mt-4">
+      <div class="form-group">
+        <label for="username">Username/Email</label>
+        <input type="text" class="form-control" id="username" placeholder="Enter your username or email">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Enter your password">
+      </div>
+      <button type="submit" class="btn btn-outline-secondary" id= "login">Login</button>
+      <div>
+        <a href="dash.html"> Charts </a>
+</div>
+    </form>
+  </div>
+
+
+</body>
+</html>
+
